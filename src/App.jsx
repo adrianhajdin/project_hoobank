@@ -10,7 +10,7 @@ const App = () => (
     </div>
 
     <div className={`bg-primary ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
+      <div className={`${styles.boxWidth}`}> /*DONT FORGET BACKTIKS WHEN ITS DYNAMIC CODE*/
         <Hero />
       </div>
     </div>
