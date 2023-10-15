@@ -31,7 +31,9 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
+  /* text-fill-color: transparent; */
+  /* In Firefox and IE you do not have text-fill-color property.Use Color instead of text-fill-color. */
+  color: transparent;
 }
 
 .bg-blue-gradient {
